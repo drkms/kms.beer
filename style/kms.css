@@ -12,6 +12,18 @@ header {
 	min-height: 500px;
 }
 
+footer {
+	background-color: #212529;
+	color: white;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+/* footer .row { */
+	/* padding: 5px; */
+	/* margin-top: 50px; */
+/* } */
+
 .hero.row {
 	width: 100%;
 	text-align: center;
@@ -49,6 +61,7 @@ h3 {
 	border: solid 1px black;
 	padding-left: 5px;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .listing {
@@ -60,10 +73,24 @@ h3 {
 	color: #AAA;
 }
 
+.row.incoming {
+	color: #AAA;
+}
+
 a.link-beer {
 	color: #212529;
 }
 a.link-beer:hover {
 	color: #AAA;
 	text-decoration: none;
+}
+
+footer a {
+		color: white;
+		text-decoration: none;
+}
+
+footer a:hover {
+		color: white;
+		text-decoration: none;
 }
