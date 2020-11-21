@@ -17,6 +17,7 @@ footer {
 	color: white;
 	font-size: 16px;
 	padding-top: 10px;
+	padding-bottom: 25px;
 }
 
 /* footer .row { */
@@ -65,8 +66,8 @@ h3 {
 }
 
 .listing {
-	font-size: 20px;
-	padding-top: 20px;
+	font-size: 18px;
+	margin-top: 50px;
 }
 
 .listing  .row:hover {
@@ -77,9 +78,21 @@ h3 {
 	color: #AAA;
 }
 
+.row.title {
+	margin-top: 10px;
+	background-color: #212529;
+	color: white;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
 a.link-beer {
 	color: #212529;
 }
+
 a.link-beer:hover {
 	color: #AAA;
 	text-decoration: none;

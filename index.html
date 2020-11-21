@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<meta name="theme-color" content="#563d7c">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style/kms.css">
 	</head>
 	<body>
@@ -45,58 +45,131 @@
 		<!-- end of menu and header -->
 		<div class="container">			
 			<div class="listing">
-				<h1 style="text-align:left;font-size:24px;">La carte des bières - Gamme "La Belle Bestiole"</h1>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/labellebestiole-logotype.png" alt="Logo La Belle Bestiole"  style="width: 100px;">
+					</div>
+					<div class="col-md-9">
+						<h1 style="text-align:left;font-size:24px;">les permanentes</h1>
+					</div>
+				</div>					
+			<div class="row title">
+				<div class="col-md-2">#</div><div class="col-md-3">Style</div><div class="col-md-5">Description</div><div class="col-md-1">%</div><div class="col-md-1">Dispo</div>
+			</div>
+
 			<a href="#" class="link-beer">
 			<div class="row">
-				<div class="col-md-2">La Lézarde</div><div class="col-md-3">Blonde / Pale Ale</div><div class="col-md-6">La blonde toute simple facile à boire</div><div class="col-md-1">4.5%</div>
+				<div class="col-md-2">La Lézarde</div><div class="col-md-3">Blonde / Pale Ale</div><div class="col-md-5">La blonde toute simple facile à boire</div><div class="col-md-1">4.5%</div><div class="col-md-1">dispo</div>
 			</div>
 				</a>
 			<a href="#" class="link-beer">
 			<div class="row">
-				<div class="col-md-2">La Renarde</div><div class="col-md-3">Ambrée / Amber Ale</div><div class="col-md-6">Du gout, du corps, simple et fruitée</div><div class="col-md-1">5.5%</div>
+				<div class="col-md-2">La Renarde</div><div class="col-md-3">Ambrée / Amber Ale</div><div class="col-md-5">Du gout, du corps, simple et fruitée</div><div class="col-md-1">5.5%</div><div class="col-md-1">12/2020</div>
 			</div>
 				</a>
 			<a href="#" class="link-beer">
 			<div class="row">
-				<div class="col-md-2">La Chouette</div><div class="col-md-3">Blanche / Witbier</div><div class="col-md-6">Une blanche épicée, de type belge</div><div class="col-md-1">4%</div>
+				<div class="col-md-2">La Chouette</div><div class="col-md-3">Blanche / Witbier</div><div class="col-md-5">Une blanche épicée, de type belge</div><div class="col-md-1">4%</div><div class="col-md-1">01/2021</div>
 			</div>
+			</a>
+		</div>
+
+			
+			<!-- Gamme Bieroglyphe / Collab		 -->
+			<div class="listing">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/bieroglyphe-logotype.png" alt="Logo Bieroglyphe"  style="width: 150px;">
+					</div>
+					<div class="col-md-9">
+						<h2 style="text-align:left;font-size:24px;">les collab'</h2>
+					</div>
+				</div>					
+			<div class="row title">
+				<div class="col-md-2">#</div><div class="col-md-3">Style</div><div class="col-md-5">Description</div><div class="col-md-1">%</div><div class="col-md-1">Dispo</div>
+			</div>
+				<a href="#" class="link-beer">
+					<div class="row">
+						<div class="col-md-2">Bièro #1</div><div class="col-md-3">Ambrée / Amber Ale</div><div class="col-md-5">Une bonne ambrée, un petit gout de fraise</div><div class="col-md-1">4%</div><div class="col-md-1">rupture</div>
+					</div>
 				</a>
-				<h2 style="margin-top: 20px;">à venir ... bientôt plus !</h2>
+			</div>					
+			<!-- End of Gamme Bieroglyphe / Collab		 -->
+			
+			<!-- Gamme Temporaire	-->
+			<div class="listing">
+				<div class="row">
+					<div class="col-md-3">
+						<h2 style="text-align:left;font-size:24px;font-family: Lucida Console">/tmp/beers</h2>					
+					</div>
+					<div class="col-md-9">
+						<h2 style="text-align:left;font-size:24px;">les éphémères</h2>
+					</div>
+				</div>					
+			<div class="row title">
+				<div class="col-md-2">#</div><div class="col-md-3">Style</div><div class="col-md-5">Description</div><div class="col-md-1">%</div><div class="col-md-1">Dispo</div>
+			</div>
+				<a href="#" class="link-beer">
+					<div class="row">
+						<div class="col-md-2">Pale Ale Hops</div><div class="col-md-3">Blonde / Pale Ale</div><div class="col-md-5">Une base blonde amère + dry-hop au cascade</div><div class="col-md-1">5%</div><div class="col-md-1">dispo</div>
+					</div>
+				</a>
+				<a href="#" class="link-beer">
+					<div class="row">
+						<div class="col-md-2">Pamplemousse</div><div class="col-md-3">IPA / White IPA</div><div class="col-md-5">Amère, agrume et un peu acide... Pamplemousse !</div><div class="col-md-1">4%</div><div class="col-md-1">dispo</div>
+					</div>
+				</a>
+			</div>					
+			<!-- End of Gamme Temporaire		 -->
+
+
+
+
+			
+			
+			<!-- Gamme a venir	-->
+			<div class="listing">
+			
+				<h2 style="margin-top: 20px; font-size: 24px;">à venir ... bientôt plus !</h2>
+			<div class="row title">
+				<div class="col-md-2">#</div><div class="col-md-3">Style</div><div class="col-md-5">Description</div><div class="col-md-1">%</div><div class="col-md-1">Dispo</div>
+			</div>
+
 			<div class="row incoming">
-				<div class="col-md-2">L'Hirondelle</div><div class="col-md-3">Blonde / Blonde d'été</div><div class="col-md-6">Légère et goulayante, prévue pour l'été</div><div class="col-md-1">4.5%</div>
+				<div class="col-md-2">L'Hirondelle</div><div class="col-md-3">Blonde / Blonde d'été</div><div class="col-md-5">Légère et goulayante, prévue pour l'été</div><div class="col-md-1">4.5%</div><div class="col-md-1">2021</div>
 			</div>
 			<div class="row incoming">
-				<div class="col-md-2">L'Orvette</div><div class="col-md-3">IPA / East Coast APA</div><div class="col-md-6">American Pale Ale, houblons aux gouts exotiques</div><div class="col-md-1">5%</div>
+				<div class="col-md-2">L'Orvette</div><div class="col-md-3">IPA / East Coast APA</div><div class="col-md-5">American Pale Ale, houblons aux gouts exotiques</div><div class="col-md-1">5%</div><div class="col-md-1">2021</div>
 			</div>
 			<div class="row incoming">
-				<div class="col-md-2">La Couleuvre</div><div class="col-md-3">IPA / West Coast IPA</div><div class="col-md-6">Pure West Coast IPA, houblons californiens</div><div class="col-md-1">5%</div>
+				<div class="col-md-2">La Couleuvre</div><div class="col-md-3">IPA / West Coast IPA</div><div class="col-md-5">Pure West Coast IPA, houblons californiens</div><div class="col-md-1">5%</div><div class="col-md-1">2021</div>
 			</div>
 			<div class="row incoming">
-				<div class="col-md-2">La Vipère</div><div class="col-md-3">IPA / Double IPA</div><div class="col-md-6">Plutot West Coast, et sacrément forte !</div><div class="col-md-1">8.5%</div>
+				<div class="col-md-2">La Vipère</div><div class="col-md-3">IPA / Double IPA</div><div class="col-md-5">Plutot West Coast, et sacrément forte !</div><div class="col-md-1">8.5%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Taupe</div><div class="col-md-3">IPA / New England IPA</div><div class="col-md-6">Trouble, totalement jus de fruits tropicaux</div><div class="col-md-1">6.5%</div>
+				<div class="col-md-2">La Taupe</div><div class="col-md-3">IPA / New England IPA</div><div class="col-md-5">Trouble, totalement jus de fruits tropicaux</div><div class="col-md-1">6.5%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Biche</div><div class="col-md-3">IPA / White IPA</div><div class="col-md-6">Une blanche houblonnée</div><div class="col-md-1">5.5%</div>
+				<div class="col-md-2">La Biche</div><div class="col-md-3">IPA / White IPA</div><div class="col-md-5">Une blanche houblonnée</div><div class="col-md-1">5.5%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Salamandre</div><div class="col-md-3">IPA / Black IPA</div><div class="col-md-6">Une base de brune anglaise, et du houblon</div><div class="col-md-1">5.5%</div>
+				<div class="col-md-2">La Salamandre</div><div class="col-md-3">IPA / Black IPA</div><div class="col-md-5">Une base de brune anglaise, et du houblon</div><div class="col-md-1">5.5%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Pie</div><div class="col-md-3">Brune / Porter</div><div class="col-md-6">Porter, charnu et trapu</div><div class="col-md-1">6%</div>
+				<div class="col-md-2">La Pie</div><div class="col-md-3">Brune / Porter</div><div class="col-md-5">Porter, charnu et trapu</div><div class="col-md-1">6%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Corneille</div><div class="col-md-3">Brune / Stout</div><div class="col-md-6">Un stout, costaud, porté sur le café</div><div class="col-md-1">6%</div>
+				<div class="col-md-2">La Corneille</div><div class="col-md-3">Brune / Stout</div><div class="col-md-5">Un stout, costaud, porté sur le café</div><div class="col-md-1">6%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Fauconne</div><div class="col-md-3">Saison / FarmHouse</div><div class="col-md-6">Bière de type Saison, sèche et parfumée</div><div class="col-md-1">6.5%</div>
+				<div class="col-md-2">La Fauconne</div><div class="col-md-3">Saison / FarmHouse</div><div class="col-md-5">Bière de type Saison, sèche et parfumée</div><div class="col-md-1">6.5%</div><div class="col-md-1">2021</div>
 			</div>			
 			<div class="row incoming">
-				<div class="col-md-2">La Chevreuille</div><div class="col-md-3">Bière de Garde</div><div class="col-md-6">Bière de tradition Francaise, ronde et présente</div><div class="col-md-1">6.5%</div>
+				<div class="col-md-2">La Chevreuille</div><div class="col-md-3">Bière de Garde</div><div class="col-md-5">Bière de tradition Francaise, ronde et présente</div><div class="col-md-1">6.5%</div><div class="col-md-1">2021</div>
 			</div>
 			<div class="row incoming">
-				<div class="col-md-2">La Sanglière</div><div class="col-md-3">Triple / Belge Triple</div><div class="col-md-6">Une Triple, forte et sèche</div><div class="col-md-1">9%</div>
+				<div class="col-md-2">La Sanglière</div><div class="col-md-3">Triple / Belge Triple</div><div class="col-md-5">Une Triple, forte et sèche</div><div class="col-md-1">9%</div><div class="col-md-1">2021</div>
 			</div>
 			</div>
 			<div class="row abus">
@@ -108,22 +181,28 @@
 		<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				Pour rester en contact :<br />
+				<div class="bold">Restez en contact</div>
 				NewsLetter à venir !
 			</div>
 			<div class="col-md-3">
-				<a href="contact.html">Pour nous retrouver :</a><br />
+				<div class="bold">
+					<a href="contact.html">Retrouvez nous</a>				
+				</div>
 				Lieu dit Les Prades<br />
 				46400 Latouille-Lentillac
 			</div>
 			<div class="col-md-3">
-				Pour nous suivre<br />
+				<div class="bold">
+					Suivez nous
+				</div>
 				<a href="https://www.youtube.com/channel/UCofKFx1ZwpKVy8Pi7YwuJZQ">
-					<img src="img/youtube-icon.png" style="width: 40px; height: 40px">
+					<img src="img/youtube-icon.png" style="width: 40px; height: 40px; -webkit-filter: invert(1); filter: invert(1);">
 				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="contact.html">Pour nous contacter</a><br />
+				<div class="bold">
+					<a href="contact.html">Contactez nous</a>
+				</div>
 				<script>
 					document.write("contact" + "@" + "kms" + "." + "beer")
 				</script><br/>
