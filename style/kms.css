@@ -10,6 +10,8 @@ header {
 	background-size: cover;
 	background-repeat: repeat,no-repeat,no-repeat;
 	min-height: 500px;
+	box-sizing: border-box;
+	display: block;
 }
 
 footer {
@@ -108,6 +110,8 @@ footer a:hover {
 		color: white;
 		text-decoration: none;
 }
+
+
 
 
 /* Google Fonts */
