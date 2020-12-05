@@ -1,7 +1,7 @@
 body {
 	font-family: 'Ubuntu Mono', monospace;
 	font-size: 18px;
-	
+	margin: 0px;
 }
 
 header {
@@ -222,4 +222,160 @@ footer a:hover {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/ubuntumono/v10/KFO-CneDtsqEr0keqCMhbC-BL9H1tY0.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/* Attempt to avoid Bootstrap */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.container {
+	margin: 0 auto;
+	/* padding-right: 15px; */
+	/* padding-left: 15px; */
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	min-height: 27px;
+}
+
+.col-md-1 {
+	flex-grow: 1;
+	width: 8.33%;
+	/* background-color: red; */
+	/* overflow: hidden; */
+}
+
+
+.col-md-2 {
+	flex-grow: 2;
+	/* background-color: green; */
+	width: 16.66%;
+	/* overflow: hidden; */
+}
+
+.col-md-3 {
+	flex-grow: 3;
+	/* background-color: blue; */
+	/* overflow: hidden; */
+	width: 25%;
+
+}
+
+.col-md-4 {
+	flex-grow: 4;
+	/* overflow: hidden; */
+	width: 33.33%;
+
+}
+
+.col-md-5 {
+	flex-grow: 5;
+	/* overflow: hidden; */
+	width: 41.66%;
+
+}
+
+.col-md-6 {
+	flex-grow: 6;
+	/* overflow: hidden; */
+	width: 50%;
+}
+
+.col-md-7 {
+	flex-grow: 7;
+	/* overflow: hidden; */
+	width: 58.33%;
+
+}
+
+.col-md-8 {
+	flex-grow: 8;
+	/* overflow: hidden; */
+	width: 66.66%;
+
+}
+
+.col-md-9 {
+	flex-grow: 9;
+	/* overflow: hidden; */
+	width: 75%;
+}
+
+.col-md-10 {
+	flex-grow: 10;
+	/* overflow: hidden; */
+	width: 83.33%;
+
+}
+
+.col-md-11 {
+	flex-grow: 11;
+	/* overflow: hidden; */
+	width: 91.66%;
+
+}
+
+.col-md-10 {
+	flex-grow: 12;
+	/* overflow: hidden; */
+	width: 100%;
+
+}
+
+.p-2 {
+    padding: .5rem!important;
+}
+
+.text-light {
+    color: #f8f9fa!important;
+}
+
+nav {
+	
+	float: right;
+	margin-top: 150px;
 }
